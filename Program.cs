@@ -1,4 +1,7 @@
-﻿namespace cs_hello_world
+﻿using Microsoft.Extensions.Configuration;
+using System.Threading.Tasks;
+
+namespace cs_hello_world
 {
     public static CancellationTokenSource cts = new CancellationTokenSource();
     public static readonly IConfiguration configuration = new ConfigurationBuilder()
@@ -25,7 +28,7 @@
                 }
             };
             // Uncomment the test you want to run:
-            
+
         }
     }
 }
