@@ -6,8 +6,8 @@ namespace cs_hello_world
         public static void Menu()
         {
             // Uncomment the test you want to run:
-            ConsoleDemo.Menu();
-            //Types.Menu();
+            //ConsoleDemo.Menu();
+            Types.Menu();
         }
     }
 }

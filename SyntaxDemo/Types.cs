@@ -5,7 +5,17 @@ namespace SyntaxDemo
         public static void Menu()
         {
             // Uncomment the test you want to run:
-            Types.StringLiterals();
+            Types.StringFormatting();
+            //Types.StringLiterals();
+        }
+        public static void StringFormatting()
+        {
+            Console.WriteLine("Test text!"); // Test text!
+            Console.WriteLine($"1 + 1 = {1 + 1}"); // 1 + 1 = 2
+            int a = 2;
+            int b = 3;
+            Console.WriteLine($"{a} + {b} = {a + b}"); // 2 + 3 = 5
+
         }
         public static void StringLiterals()
         {
