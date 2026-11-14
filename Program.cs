@@ -26,7 +26,7 @@ namespace cs_hello_world
                 }
             };
             // Uncomment the test you want to run:
-
+            SyntaxDemo.Menu();
         }
     }
 }
