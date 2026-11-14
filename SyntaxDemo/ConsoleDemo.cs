@@ -9,8 +9,8 @@ namespace SyntaxDemo
         }
         public static void Streams()
         {
-            Console.WriteLine("Hello world!"); // stdout
-            Console.Out.WriteLine("Out: Hello world!"); // stdout
+            Console.WriteLine("Hello world!"); // stdout (default)
+            Console.Out.WriteLine("Out: Hello world!"); // stdout (explicit)
             Console.Error.WriteLine("Error: Hello world!"); // stderr
         }
     }
