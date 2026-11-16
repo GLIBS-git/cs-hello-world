@@ -7,7 +7,8 @@ namespace cs_hello_world
         {
             // Uncomment the test you want to run:
             //ConsoleDemo.Menu();
-            Types.Menu();
+            RegExDemo.Menu();
+            //Types.Menu();
         }
     }
 }
